@@ -1,0 +1,147 @@
+{
+  "name": "KRENOVA 2026 Website Configuration",
+  "version": "1.0.0",
+  "description": "Landing page configuration untuk kompetisi karya ilmiah",
+  "author": "KRENOVA Team",
+  "license": "MIT",
+  "url": "https://krenova.com",
+  "contact": {
+    "email": "support@krenova.com",
+    "phone": "+62-812-3456-7890",
+    "address": "Jl. Inovasi No. 123, Jakarta Pusat 12345"
+  },
+  "settings": {
+    "siteName": "KRENOVA 2026",
+    "tagline": "Kreativitas, Inovasi, dan Riset untuk Masa Depan",
+    "language": "id-ID",
+    "timezone": "Asia/Jakarta",
+    "currency": "IDR"
+  },
+  "competition": {
+    "name": "KRENOVA 2026",
+    "subtitle": "Lomba Karya Ilmiah",
+    "year": 2026,
+    "description": "Kompetisi karya ilmiah untuk siswa SMA dan mahasiswa di seluruh Indonesia",
+    "participants": ["SMA (Kelas X-XII)", "Mahasiswa (Semester 1-8)"],
+    "registrationFee": 0,
+    "registrationPeriod": {
+      "start": "2026-01-01",
+      "end": "2026-02-28"
+    },
+    "submissionPeriod": {
+      "start": "2026-03-01",
+      "end": "2026-04-30"
+    },
+    "registration": [
+      {
+        "id": 1,
+        "name": "SMA",
+        "emoji": "",
+        "description": "Pendaftaran untuk siswa SMA kelas X-XII di seluruh Indonesia",
+        "link": "#register-sma"
+      },
+      {
+        "id": 2,
+        "name": "Kuliah",
+        "emoji": "",
+        "description": "Pendaftaran untuk mahasiswa aktif dari berbagai universitas",
+        "link": "#register-kuliah"
+      },
+      {
+        "id": 3,
+        "name": "Umum",
+        "emoji": "",
+        "description": "Pendaftaran terbuka untuk peneliti independen dan masyarakat umum",
+        "link": "#register-umum"
+      }
+    ]
+  },
+  "website": {
+    "domain": "krenova.com",
+    "protocol": "https",
+    "languages": ["id", "en"],
+    "theme": {
+      "primaryColor": "#49DEB2",
+      "secondaryColor": "#49BCF6",
+      "darkColor": "#1E2A78",
+      "lightColor": "#FAFAFA",
+      "textColor": "#1A252F"
+    },
+    "sections": [
+      "home",
+      "about",
+      "timeline",
+      "registration",
+      "faq",
+      "contact"
+    ]
+  },
+  "features": {
+    "responsive": true,
+    "mobileOptimized": true,
+    "pwa": true,
+    "offline": true,
+    "darkMode": false,
+    "multiLanguage": false,
+    "analytics": false,
+    "comments": false
+  },
+  "social": {
+    "facebook": "https://facebook.com/krenova",
+    "twitter": "https://twitter.com/krenova",
+    "instagram": "https://instagram.com/krenova",
+    "youtube": "https://youtube.com/krenova",
+    "linkedin": "https://linkedin.com/company/krenova",
+    "tiktok": "https://tiktok.com/@krenova"
+  },
+  "seo": {
+    "title": "KRENOVA 2026 - Lomba Karya Ilmiah untuk SMA dan Mahasiswa",
+    "description": "Kompetisi karya ilmiah terbuka untuk siswa SMA dan mahasiswa. Hadiah menarik, publikasi jurnal, dan pengakuan nasional menanti Anda!",
+    "keywords": [
+      "lomba karya ilmiah",
+      "kompetisi sains",
+      "penelitian ilmiah",
+      "mahasiswa",
+      "SMA",
+      "KRENOVA",
+      "inovasi",
+      "riset"
+    ],
+    "robots": "index, follow",
+    "googleSiteVerification": "YOUR_GOOGLE_VERIFICATION_CODE",
+    "bingSiteAuth": "YOUR_BING_VERIFICATION_CODE"
+  },
+  "scripts": [
+    {
+      "type": "external",
+      "src": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css",
+      "purpose": "Icons"
+    }
+  ],
+  "dependencies": {
+    "fontawesome": "6.4.0",
+    "google-fonts": ["Segoe UI", "Tahoma", "Geneva", "Verdana"]
+  },
+  "performance": {
+    "enableGzip": true,
+    "enableBrotli": true,
+    "cacheBusting": true,
+    "imageOptimization": true,
+    "lazyLoading": true,
+    "minification": true,
+    "targetPageSpeed": 90
+  },
+  "accessibility": {
+    "wcagCompliance": "AA",
+    "keyboardNavigation": true,
+    "screenReaderSupport": true,
+    "colorContrast": true,
+    "altText": true
+  },
+  "legal": {
+    "termsOfService": "/terms",
+    "privacyPolicy": "/privacy",
+    "cookiePolicy": "/cookies",
+    "contactForm": "/contact"
+  }
+}

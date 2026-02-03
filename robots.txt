@@ -1,0 +1,44 @@
+# robots.txt untuk KRENOVA Website
+
+# Arahan untuk semua search engines
+User-agent: *
+Allow: /
+Allow: /index.html
+Allow: /css/
+Allow: /js/
+Allow: /assets/
+
+# Disallow sensitive paths
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+Disallow: /*.php
+
+# Disallow duplicate content
+Disallow: /*?*sort=
+Disallow: /*?*order=
+Disallow: /*?*page=
+
+# Crawl delay untuk bots
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://krenova.com/sitemap.xml
+
+# Google-specific rules
+User-agent: Googlebot
+Allow: /
+
+# Bing-specific rules  
+User-agent: Bingbot
+Allow: /
+
+# Block bad bots
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
