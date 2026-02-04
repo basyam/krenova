@@ -839,6 +839,9 @@ a:hover {
 
     .nav-toggle {
         display: flex;
+        position: absolute;
+        right: 0;
+        z-index: 1001;
     }
 
     .nav-menu {
