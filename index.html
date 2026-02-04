@@ -12,8 +12,33 @@
     <link rel="icon" type="image/png" sizes="96x96" href="assets/icons/Brida.png">
     <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/Brida.png">
     
+    <!-- Preload CSS for faster loading -->
+    <link rel="preload" href="css/styles.css" as="style">
+    
+    <!-- Critical CSS inline to prevent FOUC -->
+    <style>
+        body { 
+            margin: 0; 
+            overflow-x: hidden; 
+            visibility: hidden;
+            opacity: 0;
+        }
+        body.loaded {
+            visibility: visible;
+            opacity: 1;
+            transition: opacity 0.3s ease;
+        }
+    </style>
+    
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Quick load script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            document.body.classList.add('loaded');
+        });
+    </script>
 </head>
 <body>
     <!-- Navigation Bar -->
